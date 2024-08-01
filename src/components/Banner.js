@@ -60,7 +60,7 @@ export const Banner = () => {
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <span className="tagline">Welcome to my Portfolio</span>
                     <h1>{`Hi! I'm Adam`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                    <p>Hi! I'm Adam, a skilled software designer and developer with a Master's degree in Human-Computer Interaction from ENAC, Toulouse. I like developing mobile games independently. In addition to my professional pursuits, I am passionate about sports, particularly football, and enjoy playing video games in my leisure time.</p>
+                    <p>Hi! I'm Adam, a skilled software designer and developer with a Master's degree in Human-Computer Interaction from ENAC, Toulouse. I like developing mobile games independently. In addition to my professional pursuits, I am passionate about sports, particularly football, and enjoy playing video games in my free time.</p>
                     <HashLink to='#connect' className="custom-hash-link">
                       <button>Let’s Connect <ArrowRightCircle size={25} /></button>
                     </HashLink>

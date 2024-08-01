@@ -72,7 +72,7 @@ export const Projects = () => {
     },
     {
       title: "Squeaky Games Blog",
-      description: "Mobile app design. A gaming reviews blog and social media.",
+      description: "Mobile app design. A game reviews blog and social space hybrid.",
       imgUrl: projectImages['squeakyGamesMobile/sgLogo.png'],
       skills: [{ skill: 'ReactJs', skillLogo: skillLogos['figma.svg'] }],
       images: [

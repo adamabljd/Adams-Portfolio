@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Adams-Portfolio/static/css/main.c0bae703.css",
-    "main.js": "/Adams-Portfolio/static/js/main.f60f668d.js",
+    "main.js": "/Adams-Portfolio/static/js/main.84a73e15.js",
     "static/js/453.30b797cf.chunk.js": "/Adams-Portfolio/static/js/453.30b797cf.chunk.js",
     "static/media/bg-gpt2.png": "/Adams-Portfolio/static/media/bg-gpt2.9d42104dacf3a9d5cab3.png",
     "static/media/rt1.png": "/Adams-Portfolio/static/media/rt1.74d27e05b13ccc26d4f9.png",
@@ -80,11 +80,11 @@
     "static/media/office.svg": "/Adams-Portfolio/static/media/office.6a636141d41d4a8f8b7e.svg",
     "static/media/cvLogo.svg": "/Adams-Portfolio/static/media/cvLogo.8190bca07e260491c49bf59ff8d52eef.svg",
     "main.c0bae703.css.map": "/Adams-Portfolio/static/css/main.c0bae703.css.map",
-    "main.f60f668d.js.map": "/Adams-Portfolio/static/js/main.f60f668d.js.map",
+    "main.84a73e15.js.map": "/Adams-Portfolio/static/js/main.84a73e15.js.map",
     "453.30b797cf.chunk.js.map": "/Adams-Portfolio/static/js/453.30b797cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0bae703.css",
-    "static/js/main.f60f668d.js"
+    "static/js/main.84a73e15.js"
   ]
 }

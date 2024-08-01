@@ -16,7 +16,7 @@ export const Footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end mt-4">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/adam-abouljoud-b380851a4/" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="" /></a>
-              <a href="./CV.pdf" download="CV.pdf"><img src={cvLogo} alt="Icon" className="text-light" /></a>
+              <a href="./AdamEnglish.pdf" download="AdamEnglish.pdf"><img src={cvLogo} alt="Icon" className="text-light" /></a>
               <a href="https://squeakygames.itch.io/" target="_blank" rel="noopener noreferrer"><img src={itchioLogo} alt="itch.io" /></a>
             </div>
             <p>Copyright 2024. All Rights Reserved</p>

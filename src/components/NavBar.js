@@ -49,7 +49,7 @@ export const NavBar = () => {
                         <span className="navbar-text">
                             <div className="social-icon">
                                 <a href="https://www.linkedin.com/in/adam-abouljoud-b380851a4/" target="_blank" rel="noopener noreferrer"><img src={linkedinLogo} alt="" /></a>
-                                <a href="./CV.pdf" download="CV.pdf" target="_blank" rel="noopener noreferrer"><img src={cvLogo} alt="cv" /></a>
+                                <a href="./AdamEnglish.pdf" download="AdamEnglish.pdf" target="_blank" rel="noopener noreferrer"><img src={cvLogo} alt="cv" /></a>
                                 <a href="https://squeakygames.itch.io/" target="_blank" rel="noopener noreferrer"><img src={itchioLogo} alt="itch.io" /></a>
                             </div>
                             <HashLink to='#connect'>

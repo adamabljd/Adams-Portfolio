@@ -16,18 +16,41 @@ export const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
+    // {
+    //   title: "C-Tool",
+    //   description: "Development of a robot testing software.",
+    //   imgUrl: projectImages['zodiac/ct1.png'],
+    //   skills: [{ skill: 'ReactJs', skillLogo: skillLogos['react.svg'] },
+    //   { skill: 'HTML5', skillLogo: skillLogos['html5.png'] },
+    //   { skill: 'CSS3', skillLogo: skillLogos['css.svg'] },
+    //   { skill: 'Figma', skillLogo: skillLogos['figma.svg'] },
+    //   { skill: 'electron', skillLogo: skillLogos['electron.png'] },
+    //   { skill: 'JS', skillLogo: skillLogos['js.svg'] },
+    //   { skill: 'TS', skillLogo: skillLogos['typescript.png'] },],
+    //   images: [projectImages['zodiac/ct1.png'], projectImages['zodiac/ct2.png'], projectImages['zodiac/ct3.png']]
+    // },
     {
-      title: "C-Tool",
-      description: "Development of a robot testing software.",
-      imgUrl: projectImages['zodiac/ct1.png'],
-      skills: [{ skill: 'ReactJs', skillLogo: skillLogos['react.svg'] },
+      title: "Muscle Map",
+      description: "Fitness guide website (in development).",
+      imgUrl: projectImages['muscle-map/mm-logo.png'],
+      skills: [{ skill: 'ReactJS', skillLogo: skillLogos['react.svg'] },
+      { skill: 'TailwindCss', skillLogo: skillLogos['tailwind.svg'] },
       { skill: 'HTML5', skillLogo: skillLogos['html5.png'] },
       { skill: 'CSS3', skillLogo: skillLogos['css.svg'] },
       { skill: 'Figma', skillLogo: skillLogos['figma.svg'] },
-      { skill: 'electron', skillLogo: skillLogos['electron.png'] },
+      { skill: 'SQL', skillLogo: skillLogos['sql.svg'] },
+      { skill: 'PostgreSQL', skillLogo: skillLogos['postgresql.png'] },
       { skill: 'JS', skillLogo: skillLogos['js.svg'] },
-      { skill: 'TS', skillLogo: skillLogos['typescript.png'] },],
-      images: [projectImages['zodiac/ct1.png'], projectImages['zodiac/ct2.png'], projectImages['zodiac/ct3.png']]
+      { skill: 'NodeJS', skillLogo: skillLogos['nodejs.png'] },
+    ],
+      images: [
+        projectImages['muscle-map/mm-bg.png'],
+        projectImages['muscle-map/mm-bg-mobile.png'],
+        projectImages['muscle-map/mm-allexo.png'],
+        projectImages['muscle-map/mm-allexo-mobile.png'],
+        projectImages['muscle-map/mm-dips.png'],
+        projectImages['muscle-map/mm-dips-mobile.png'],
+      ]
     },
     {
       title: "Resatoul",
@@ -62,14 +85,14 @@ export const Projects = () => {
         projectImages['catastrophic-dodge/cd-3.png']
       ]
     },
-    {
-      title: "Lab tool",
-      description: "Design of a dashboard for pool and tanks tracking",
-      imgUrl: projectImages['lab-tool/lt-1.png'],
-      skills: [{ skill: 'Figma', skillLogo: skillLogos['figma.svg'] },],
-      images: [projectImages['lab-tool/lt-1.png'], projectImages['lab-tool/lt-2.png'], projectImages['lab-tool/lt-3.png'],
-      projectImages['lab-tool/lt-4.png'], projectImages['lab-tool/lt-5.png'], projectImages['lab-tool/lt-6.png']]
-    },
+    // {
+    //   title: "Lab tool",
+    //   description: "Design of a dashboard for pool and tanks tracking",
+    //   imgUrl: projectImages['lab-tool/lt-1.png'],
+    //   skills: [{ skill: 'Figma', skillLogo: skillLogos['figma.svg'] },],
+    //   images: [projectImages['lab-tool/lt-1.png'], projectImages['lab-tool/lt-2.png'], projectImages['lab-tool/lt-3.png'],
+    //   projectImages['lab-tool/lt-4.png'], projectImages['lab-tool/lt-5.png'], projectImages['lab-tool/lt-6.png']]
+    // },
     {
       title: "Squeaky Games Blog",
       description: "Mobile app design. A game reviews blog and social space hybrid.",
@@ -153,12 +176,17 @@ export const Projects = () => {
                   <h2 className='mb-5'>Projects</h2>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                      <Nav.Item>
-                        <Nav.Link eventKey="first">Projects</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="second">Profesional Experiences</Nav.Link>
-                      </Nav.Item>
+                      <Col size={6} className='first-tab-col'>
+                        <Nav.Item >
+                          <Nav.Link eventKey="first">Projects</Nav.Link>
+                        </Nav.Item>
+                      </Col>
+
+                      <Col size={6} className='second-tab-col'>
+                        <Nav.Item>
+                          <Nav.Link eventKey="second">Profesional Experiences</Nav.Link>
+                        </Nav.Item>
+                      </Col>
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Tab.Pane eventKey="first">
@@ -184,7 +212,7 @@ export const Projects = () => {
                                 <ProjectCard
                                   key={index}
                                   {...project}
-                                  onClick={() => {}}
+                                  onClick={() => { }}
                                 />
                               )
                             })

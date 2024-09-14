@@ -41,12 +41,14 @@ export const Skills = () => {
                 <SkillCard src={skillLogos['css.svg']} label="CSS" />
                 <SkillCard src={skillLogos['js.svg']} label="JavaScript" />
                 <SkillCard src={skillLogos['bootstrap.svg']} label="Bootstrap" />
+                <SkillCard src={skillLogos['tailwind.svg']} label="TailwindCss" />
                 <SkillCard src={skillLogos['electron.png']} label="Electron" />
                 <SkillCard src={skillLogos['unity.svg']} label="Unity" />
                 <SkillCard src={skillLogos['csharp.svg']} label="C#" />
                 <SkillCard src={skillLogos['nodejs.png']} label="NodeJs" />
                 <SkillCard src={skillLogos['typescript.png']} label="TypeScript" />
                 <SkillCard src={skillLogos['sql.svg']} label="SQL" />
+                <SkillCard src={skillLogos['postgresql.png']} label="PostgreSQL" />
                 <SkillCard src={skillLogos['java.svg']} label="Java" />
                 <SkillCard src={skillLogos['office.svg']} label="Office" />
                 <SkillCard src={skillLogos['php.svg']} label="Php" />

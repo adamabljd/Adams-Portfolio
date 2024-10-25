@@ -30,6 +30,30 @@ export const Projects = () => {
     //   images: [projectImages['zodiac/ct1.png'], projectImages['zodiac/ct2.png'], projectImages['zodiac/ct3.png']]
     // },
     {
+      title: "Leap",
+      description: "Learning platform and marketplace for coach-client relationships in all possible areas (sports, arts, studies...) (Coming early 2025).",
+      imgUrl: projectImages['leap/logo-leap.png'],
+      skills: [{ skill: 'ReactJS', skillLogo: skillLogos['react.svg'] },
+      { skill: 'TailwindCss', skillLogo: skillLogos['tailwind.svg'] },
+      { skill: 'HTML5', skillLogo: skillLogos['html5.png'] },
+      { skill: 'CSS3', skillLogo: skillLogos['css.svg'] },
+      { skill: 'Figma', skillLogo: skillLogos['figma.svg'] },
+      { skill: 'SQL', skillLogo: skillLogos['sql.svg'] },
+      { skill: 'PostgreSQL', skillLogo: skillLogos['postgresql.png'] },
+      { skill: 'JS', skillLogo: skillLogos['js.svg'] },
+      { skill: 'TS', skillLogo: skillLogos['typescript.png'] },
+      { skill: 'NodeJS', skillLogo: skillLogos['nodejs.png'] },
+    ],
+      images: [
+        projectImages['leap/leap6.png'],
+        projectImages['leap/leap1.png'],
+        projectImages['leap/leap2.png'],
+        projectImages['leap/leap3.png'],
+        projectImages['leap/leap4.png'],
+        projectImages['leap/leap5.png'],
+      ]
+    },
+    {
       title: "Muscle Map",
       description: "Fitness guide website (in development).",
       imgUrl: projectImages['muscle-map/mm-logo.png'],

@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Adams-Portfolio/static/css/main.0b22f1b5.css",
-    "main.js": "/Adams-Portfolio/static/js/main.2eb039ba.js",
+    "main.js": "/Adams-Portfolio/static/js/main.8c26ccb4.js",
     "static/js/453.30b797cf.chunk.js": "/Adams-Portfolio/static/js/453.30b797cf.chunk.js",
     "static/media/bg-gpt2.png": "/Adams-Portfolio/static/media/bg-gpt2.9d42104dacf3a9d5cab3.png",
+    "static/media/logo.png": "/Adams-Portfolio/static/media/logo.b55df519e4546628c4cd.png",
     "static/media/mm-bg.png": "/Adams-Portfolio/static/media/mm-bg.d23481e0ee5e50a249fe.png",
     "static/media/rt1.png": "/Adams-Portfolio/static/media/rt1.74d27e05b13ccc26d4f9.png",
     "static/media/color-sharp.png": "/Adams-Portfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -12,6 +13,7 @@
     "static/media/sg1.png": "/Adams-Portfolio/static/media/sg1.74e3e4fa77a176df9da5.png",
     "static/media/sg2.png": "/Adams-Portfolio/static/media/sg2.fb673999440a47d6f934.png",
     "static/media/cat-laptop1.png": "/Adams-Portfolio/static/media/cat-laptop1.93babddfbc8b1faaa8ab.png",
+    "static/media/ss-1.png": "/Adams-Portfolio/static/media/ss-1.49ef359c5af2c070095c.png",
     "static/media/sg6.png": "/Adams-Portfolio/static/media/sg6.dbe9a0f82885cd7696d0.png",
     "static/media/sg4.png": "/Adams-Portfolio/static/media/sg4.585b78e46135c1a06386.png",
     "static/media/mm-bg-mobile.png": "/Adams-Portfolio/static/media/mm-bg-mobile.96aaa45ec1398c37a71a.png",
@@ -72,7 +74,6 @@
     "static/media/ut3Logo.png": "/Adams-Portfolio/static/media/ut3Logo.ada9385682a47f348b96.png",
     "static/media/sg3.png": "/Adams-Portfolio/static/media/sg3.b30a86f5b2166012df4f.png",
     "static/media/sgLogo.png": "/Adams-Portfolio/static/media/sgLogo.40e6533ffcd0bd2c05f9.png",
-    "static/media/logo.png": "/Adams-Portfolio/static/media/logo.b55df519e4546628c4cd.png",
     "static/media/miawdoku-4.jpg": "/Adams-Portfolio/static/media/miawdoku-4.9150161515df6b6dc011.jpg",
     "static/media/js.svg": "/Adams-Portfolio/static/media/js.94a61437a48a23399be4.svg",
     "static/media/crlLogo.png": "/Adams-Portfolio/static/media/crlLogo.f84f8dad96c1287234e1.png",
@@ -112,11 +113,11 @@
     "static/media/office.svg": "/Adams-Portfolio/static/media/office.6a636141d41d4a8f8b7e.svg",
     "static/media/cvLogo.svg": "/Adams-Portfolio/static/media/cvLogo.8190bca07e260491c49bf59ff8d52eef.svg",
     "main.0b22f1b5.css.map": "/Adams-Portfolio/static/css/main.0b22f1b5.css.map",
-    "main.2eb039ba.js.map": "/Adams-Portfolio/static/js/main.2eb039ba.js.map",
+    "main.8c26ccb4.js.map": "/Adams-Portfolio/static/js/main.8c26ccb4.js.map",
     "453.30b797cf.chunk.js.map": "/Adams-Portfolio/static/js/453.30b797cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b22f1b5.css",
-    "static/js/main.2eb039ba.js"
+    "static/js/main.8c26ccb4.js"
   ]
 }

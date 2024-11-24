@@ -109,6 +109,23 @@ export const Projects = () => {
       ]
     },
     {
+      title: "Saiyan Stories!",
+      description: "All of Dragon Ball and Dragon Ball Z episodes summary!",
+      imgUrl: projectImages['ss/logo.png'],
+      link: 'https://saiyan-stories.vercel.app/',
+      skills: [{ skill: 'ReactJS', skillLogo: skillLogos['react.svg'] },
+      { skill: 'TailwindCss', skillLogo: skillLogos['tailwind.svg'] },
+      { skill: 'HTML5', skillLogo: skillLogos['html5.png'] },
+      { skill: 'CSS3', skillLogo: skillLogos['css.svg'] },
+      { skill: 'Figma', skillLogo: skillLogos['figma.svg'] },
+      { skill: 'JS', skillLogo: skillLogos['js.svg'] },
+      { skill: 'NodeJS', skillLogo: skillLogos['nodejs.png'] },
+      ],
+      images: [
+        projectImages['ss/ss-1.png'],
+      ]
+    },
+    {
       title: "Resatoul",
       description: "Full-Stack development of a reservation tool.",
       imgUrl: projectImages['resatoul/rt1.png'],

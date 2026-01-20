@@ -30,6 +30,66 @@ export const Projects = () => {
     //   images: [projectImages['zodiac/ct1.png'], projectImages['zodiac/ct2.png'], projectImages['zodiac/ct3.png']]
     // },
     {
+      title: "Ultimate homeschooling Bundle",
+      description: "The Ultimate Homeschooling Mega Bundle",
+      imgUrl: projectImages['ultimate-b/1.png'],
+      link: 'https://alldigitalmarket.vercel.app',
+      skills: [{ skill: 'ReactJS', skillLogo: skillLogos['react.svg'] },
+      { skill: 'TailwindCss', skillLogo: skillLogos['tailwind.svg'] },
+      { skill: 'NodeJS', skillLogo: skillLogos['nodejs.png'] },
+      { skill: 'JS', skillLogo: skillLogos['js.svg'] },
+      { skill: 'Stripe', skillLogo: skillLogos['stripe.png'] },
+      { skill: 'Vite', skillLogo: skillLogos['vite.png'] },
+      { skill: 'Vercel', skillLogo: skillLogos['vercel.png'] },
+      { skill: 'Heroku', skillLogo: skillLogos['heroku.png'] },
+      { skill: 'HTML5', skillLogo: skillLogos['html5.png'] },
+      ],
+      images: [
+        projectImages['ultimate-b/ultimate-b-1.png'],
+        projectImages['ultimate-b/ultimate-b-2.png'],
+      ]
+    },
+    {
+      title: "3D Boxes and stationery",
+      description: "3D Boxes & Stationery Made Easy",
+      imgUrl: projectImages['boxes-s/logo.jpg'],
+      link: 'https://boxes-stationery-bundle.vercel.app',
+      skills: [{ skill: 'ReactJS', skillLogo: skillLogos['react.svg'] },
+      { skill: 'TailwindCss', skillLogo: skillLogos['tailwind.svg'] },
+      { skill: 'NodeJS', skillLogo: skillLogos['nodejs.png'] },
+      { skill: 'JS', skillLogo: skillLogos['js.svg'] },
+      { skill: 'Stripe', skillLogo: skillLogos['stripe.png'] },
+      { skill: 'Vite', skillLogo: skillLogos['vite.png'] },
+      { skill: 'Vercel', skillLogo: skillLogos['vercel.png'] },
+      { skill: 'Heroku', skillLogo: skillLogos['heroku.png'] },
+      { skill: 'HTML5', skillLogo: skillLogos['html5.png'] },
+      ],
+      images: [
+        projectImages['boxes-s/boxes-s-1.png'],
+        projectImages['boxes-s/boxes-s-2.png'],
+      ]
+    },
+    {
+      title: "Kitty Mahjong!",
+      description: "Cat themed Tiles Matching + Tower Defense Game!",
+      imgUrl: projectImages['kitty-mahjong/Kitty-Mahjong-logo.png'],
+      link: 'https://apps.apple.com/fr/app/cat-mahjong-tile-match-defense/id6755239014?l=en-GB',
+      skills: [{ skill: 'Unity', skillLogo: skillLogos['unity.svg'] },
+      { skill: 'C#', skillLogo: skillLogos['tailwind.svg'] },
+      { skill: 'Supabase', skillLogo: skillLogos['supabase.png'] },
+      { skill: 'Figma', skillLogo: skillLogos['figma.svg'] },
+      { skill: 'XCode', skillLogo: skillLogos['xcode.png'] },
+      { skill: 'Android Studio', skillLogo: skillLogos['androidStudio.png'] },
+      { skill: 'Google Admob', skillLogo: skillLogos['admob.png'] },
+      ],
+      images: [
+        projectImages['kitty-mahjong/Kitty-Mahjong-1.png'],
+        projectImages['kitty-mahjong/Kitty-Mahjong-2.png'],
+        projectImages['kitty-mahjong/Kitty-Mahjong-3.png'],
+        projectImages['kitty-mahjong/Kitty-Mahjong-4.png'],
+      ]
+    },
+    {
       title: "MiawDoku!",
       description: "Sudoku-inspired Cat Themed Game!",
       imgUrl: projectImages['miawdoku/logo.png'],
@@ -51,6 +111,23 @@ export const Projects = () => {
         projectImages['miawdoku/miawdoku-6.png'],
         projectImages['miawdoku/miawdoku-7.png'],
         projectImages['miawdoku/miawdoku-8.png'],
+      ]
+    },
+    {
+      title: "Squeaky Games",
+      description: "Squeaky Games Official website.",
+      imgUrl: projectImages['squeakyGamesMobile/sgLogo.png'],
+      link: 'https://squeakygamesinc.com',
+      skills: [{ skill: 'ReactJS', skillLogo: skillLogos['react.svg'] },
+      { skill: 'TailwindCss', skillLogo: skillLogos['tailwind.svg'] },
+      { skill: 'JS', skillLogo: skillLogos['js.svg'] },
+      { skill: 'Vite', skillLogo: skillLogos['vite.png'] },
+      { skill: 'Vercel', skillLogo: skillLogos['vercel.png'] },
+      { skill: 'HTML5', skillLogo: skillLogos['html5.png'] },
+      ],
+      images: [
+        projectImages['squeaky-games/squeaky-1.png'],
+        projectImages['squeaky-games/squeaky-2.png'],
       ]
     },
     {

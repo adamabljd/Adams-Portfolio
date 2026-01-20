@@ -43,7 +43,7 @@ const ProjectModal = ({ show, onHide, name, images, description, skills, link })
         {link && (
           <p className="mt-3">
             <a href={link} target="_blank" rel="noopener noreferrer">
-              Click here to play!
+              Click here to check it out!
             </a>
           </p>
         )}

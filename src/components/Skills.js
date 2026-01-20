@@ -36,22 +36,22 @@ export const Skills = () => {
               <h2 className="mb-5">Skills</h2>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <SkillCard src={skillLogos['react.svg']} label="ReactJS" />
+                <SkillCard src={skillLogos['tailwind.svg']} label="TailwindCss" />
+                <SkillCard src={skillLogos['nodejs.png']} label="NodeJs" />
                 <SkillCard src={skillLogos['figma.svg']} label="Figma" />
                 <SkillCard src={skillLogos['html5.png']} label="HTML" />
                 <SkillCard src={skillLogos['css.svg']} label="CSS" />
                 <SkillCard src={skillLogos['js.svg']} label="JavaScript" />
+                <SkillCard src={skillLogos['unity.svg']} label="Unity" />
+                <SkillCard src={skillLogos['supabase.png']} label="Supabase" />
                 <SkillCard src={skillLogos['bootstrap.svg']} label="Bootstrap" />
-                <SkillCard src={skillLogos['tailwind.svg']} label="TailwindCss" />
-                <SkillCard src={skillLogos['supabase.svg']} label="Supabase" />
-                <SkillCard src={skillLogos['capacitor.png']} label="Capacitor" />
-                <SkillCard src={skillLogos['xcode.png']} label="XCode" />
-                <SkillCard src={skillLogos['androidStudio.png']} label="Android Studio" />
+                {/* <SkillCard src={skillLogos['capacitor.png']} label="Capacitor" /> */}
+                {/* <SkillCard src={skillLogos['xcode.png']} label="XCode" /> */}
+                {/* <SkillCard src={skillLogos['androidStudio.png']} label="Android Studio" /> */}
                 <SkillCard src={skillLogos['uxui.png']} label="UX/UI" />
-                <SkillCard src={skillLogos['admob.svg']} label="Google AdMob" />
+                {/* <SkillCard src={skillLogos['admob.png']} label="Google AdMob" /> */}
                 <SkillCard src={skillLogos['restApi.png']} label="Rest API" />
                 <SkillCard src={skillLogos['electron.png']} label="Electron" />
-                <SkillCard src={skillLogos['unity.svg']} label="Unity" />
-                <SkillCard src={skillLogos['nodejs.png']} label="NodeJs" />
                 <SkillCard src={skillLogos['typescript.png']} label="TypeScript" />
                 <SkillCard src={skillLogos['sql.svg']} label="SQL" />
                 <SkillCard src={skillLogos['java.svg']} label="Java" />

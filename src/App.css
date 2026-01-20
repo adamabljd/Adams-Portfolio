@@ -679,6 +679,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.project-modal .modal-dialog {
+  margin-top: 80px; /* adjust to your navbar height */
+}
+
+
 .project-modal .modal-header,
 .project-modal .modal-body {
   padding-bottom: 5px;
